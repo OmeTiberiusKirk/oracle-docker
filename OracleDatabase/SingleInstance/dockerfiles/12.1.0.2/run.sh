@@ -1,4 +1,4 @@
-docker run --name oracle \
+docker run -d --name oracle \
     -p 1521:1521 \
     --ulimit nofile=1024:65536 --ulimit nproc=2047:16384 --ulimit stack=10485760:33554432 --ulimit memlock=3221225472 \
     -e ORACLE_SID=orcl \

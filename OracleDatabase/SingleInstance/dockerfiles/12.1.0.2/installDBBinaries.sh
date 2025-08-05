@@ -58,7 +58,7 @@ cd $HOME
 
 # Remove not needed components
 # APEX
-rm -rf $ORACLE_HOME/apex && \
+# rm -rf $ORACLE_HOME/apex && \
 # ORDS
 rm -rf $ORACLE_HOME/ords && \
 # SQL Developer
